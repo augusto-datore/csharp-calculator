@@ -1,6 +1,8 @@
 # Calculadora em C#
 
-Calculadora de console desenvolvida em C# como projeto de prática durante meus estudos em Engenharia da Computação.
+Uma calculadora de console desenvolvida em C# para praticar lógica de programação, operações matemáticas, validação de entradas e tratamento de erros.
+
+Este projeto faz parte da minha jornada de aprendizado em Engenharia da Computação, com foco no desenvolvimento de habilidades em programação e na construção de aplicações funcionais.
 
 ## Funcionalidades
 
@@ -10,46 +12,99 @@ Calculadora de console desenvolvida em C# como projeto de prática durante meus 
 - Divisão
 - Potenciação
 - Raiz quadrada
-- Porcentagem
+- Cálculo de porcentagem
+- Menu interativo para realizar várias operações
 - Validação de entradas numéricas
-- Aceita vírgula ou ponto como separador decimal
+- Suporte a números decimais com vírgula ou ponto
 - Tratamento de divisão por zero
-- Tratamento de raiz quadrada de número negativo
-- Verificação de resultados que não podem ser representados como números finitos
-- Menu interativo que permite realizar várias operações
+- Validação de operações matemáticas inválidas
+- Verificação de resultados não finitos
 
-## Tecnologias
+## Tecnologias utilizadas
 
-- C#
-- `System`
-- `System.Globalization`
+- C# — linguagem de programação
+- .NET — plataforma de desenvolvimento
+- `System.Globalization` — conversão e formatação de números
+- `Math` — operações matemáticas
 
 ## Conceitos praticados
+
+Durante o desenvolvimento deste projeto, pratiquei conceitos fundamentais da programação:
 
 - Variáveis e tipos de dados
 - Operadores aritméticos
 - Estruturas condicionais (`if`)
-- Laços de repetição (`while`)
+- Estruturas de repetição (`while`)
 - Estrutura de seleção (`switch`)
 - Métodos da classe `Math`
-- Entrada e saída pelo console
-- Conversão e validação de números com `double.TryParse()`
+- Entrada e saída de dados pelo console
+- Conversão e validação de entradas com `double.TryParse()`
 - Formatação de números com `CultureInfo`
+- Tratamento de erros
+- Organização da lógica de uma aplicação
 
 ## Como executar
 
-1. Abra o arquivo `Program.cs` em um ambiente de desenvolvimento C#.
-2. Compile e execute o programa com um compilador C# compatível.
-3. Siga as instruções exibidas no console.
+### Pré-requisitos
 
-## Formato dos números
+- Git instalado
+- .NET SDK 10.0, conforme a configuração atual do projeto
+- Terminal ou ambiente de desenvolvimento compatível com C#
 
-A calculadora aceita números decimais com vírgula ou ponto. Por exemplo, `2,5` e `2.5` são interpretados como o mesmo valor.
+### 1. Clone o repositório
 
-## Objetivo
+```bash
+git clone https://github.com/augusto-datore/csharp-calculator.git
+```
 
-Este projeto foi desenvolvido para praticar lógica de programação e consolidar conhecimentos iniciais em C#.
+### 2. Acesse a pasta do projeto
+
+```bash
+cd csharp-calculator
+```
+
+### 3. Execute a aplicação
+
+```bash
+dotnet run
+```
+
+O menu da calculadora será exibido no terminal. Escolha uma operação e informe os números solicitados.
+
+## Exemplos de utilização
+
+| Operação | Exemplo | Resultado |
+|---|---|---:|
+| Adição | 10 + 5 | 15 |
+| Subtração | 10 - 5 | 5 |
+| Multiplicação | 10 × 5 | 50 |
+| Divisão | 10 / 5 | 2 |
+| Potenciação | 2 elevado a 3 | 8 |
+| Raiz quadrada | Raiz de 25 | 5 |
+| Porcentagem | 10% de 200 | 20 |
+
+A calculadora também aceita números decimais com vírgula ou ponto, como `2,5` e `2.5`.
+
+## Objetivo do projeto
+
+O objetivo é consolidar conhecimentos fundamentais de C# por meio de uma aplicação prática, desenvolvendo raciocínio lógico, organização do código e tratamento de entradas do usuário.
+
+## Próximos passos
+
+Algumas melhorias que pretendo explorar na evolução deste projeto:
+
+- Implementação de testes automatizados
+- Refatoração do código para melhorar a organização e a reutilização
+- Aprimoramento da experiência de uso
+- Exploração de novos recursos da linguagem C#
 
 ## Autor
 
-Augusto Datore — Estudante de Engenharia da Computação
+**Augusto Datore**
+
+Estudante de Engenharia da Computação, desenvolvendo projetos práticos para aprimorar meus conhecimentos em programação e desenvolvimento de software.
+
+### Contato
+
+- GitHub: [augusto-datore](https://github.com/augusto-datore)
+- Repositório: [csharp-calculator](https://github.com/augusto-datore/csharp-calculator)
