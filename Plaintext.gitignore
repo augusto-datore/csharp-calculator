@@ -1,0 +1,7 @@
+Plaintext
+bin/
+obj/
+.vs/
+*.user
+*.suo
+.vscode/
